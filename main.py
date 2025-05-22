@@ -1,6 +1,6 @@
 import requests
 
-response = requests.get("https://www.example.com", timeout=5)
+response = requests.get("https://www.example.com", timeout=None)
 if response.status_code == 200:
     print("Successfully reached example.com")
 else:
